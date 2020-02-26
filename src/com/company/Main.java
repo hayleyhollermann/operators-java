@@ -3,6 +3,23 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+        int result = 1 + 2; // 1 + 2 = 3
+        System.out.println("1 + 2 = " + result);
+        int previousResult = result;
+        System.out.println("previous result = " + previousResult);
+        result = result - 1;
+        System.out.println("new result = " + result);
+        System.out.println("previous result = " + previousResult);
+        result = result * 10;
+        System.out.println("new result = " + result);
+        result = result /5;
+        System.out.println("new result = " + result);
+
+        // Remainder/Modulus
+        result = result % 3;
+        System.out.println("new result = " + result);
+
+
     }
 }
