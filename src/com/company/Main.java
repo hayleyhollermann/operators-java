@@ -21,5 +21,19 @@ public class Main {
         System.out.println("new result = " + result);
 
 
+        result ++; // increment
+        System.out.println(result);
+        result --; //decrement
+        System.out.println(result);
+
+        result += 2; // result = result + 2
+        System.out.println(result);
+
+        result *= 10;
+        System.out.println(result); // result = result * 10
+
+        result /= 3;
+        System.out.println(result); // result = result / 3
+
     }
 }
